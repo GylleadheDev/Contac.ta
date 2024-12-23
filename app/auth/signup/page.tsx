@@ -68,7 +68,7 @@ export default function SignUp() {
         const { error: updateError } = await supabase
           .from('profiles')
           .upsert({
-            id: authData.user.id,
+            id : authData && authData.user ? authData.user.id : 'usuário não encontrado',
             username: username, // Include username here
           });
   
