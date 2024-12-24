@@ -47,7 +47,7 @@ export default function Home() {
               </a>
         </h1>
         <p className="mb-8 text-lg font-normal text-slate-900 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-200">
-          Here at Contac.ta CRM  we focus on We focus on versatility, intuitiveness and without a shadow of doubt Ease , for you and all your business
+          Here at Contac.ta CRM We focus on versatility, intuitiveness and without a shadow of doubt Ease , for you and all your business
         </p>
         <div className="flex p-8 flex-wrap justify-center items-center gap-5">
         <a

@@ -152,15 +152,20 @@ export default function Dashboard() {
                   </TableCell>
                   <TableCell className="text-center m-auto">
                     {schedule.status === "cancelado" ? (
-                      <span className="text-red-600 text-center" ><X className="ml-4"/> </span>
+                      <span className="text-red-600 text-center">
+                        <X className="ml-4" />{" "}
+                      </span>
                     ) : schedule.status === "Feito" ? (
-                      <span className="text-green-500 text-center" ><CheckCheck className="ml-4"/>  </span>
+                      <span className="text-green-500 text-center">
+                        <CheckCheck className="ml-4" />{" "}
+                      </span>
                     ) : schedule.status === "A fazer" ? (
-                      <span className="text-yellow-500 text-center" ><Clock className="ml-4"/> </span>
+                      <span className="text-yellow-500 text-center">
+                        <Clock className="ml-4" />{" "}
+                      </span>
                     ) : (
                       schedule.status
                     )}
-
                   </TableCell>
                   <TableCell className="text-center">
                     <div className="flex justify-end space-x-2">
@@ -195,8 +200,8 @@ export default function Dashboard() {
                     colSpan={5}
                     className="text-center dark:text-slate-200 dark:bg-orange-500"
                   >
-                    Você ainda nao criou nenhum agendamento , clique no botão
-                    acima e crie seu primeiro Agendamento de serviço
+                    You haven`&lsquo;`t created any schedule yet, click the
+                    button above and create your first Service Schedule
                   </TableCell>
                 </TableRow>
               )}
